@@ -60,6 +60,7 @@ theme:
     - content.action.view
     # - content.action.edit
     - announce.dismiss
+    - content.code.copy
 
 
 markdown_extensions:

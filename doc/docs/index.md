@@ -1,4 +1,4 @@
 # Snippets
 
-* [Django](/django)
-* [Vercel](/vercel)
+* [Python](python)
+* [Vercel](vercel)
