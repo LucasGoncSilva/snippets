@@ -136,6 +136,36 @@
     --8<-- "./docs/examples/python/django/DEPLOY_deploy.py"
     ```
 
+??? example "Dockerfile"
+
+    ```dockerfile title=""
+    --8<-- "./docs/examples/python/django/DEPLOY_dockerfile"
+    ```
+
+??? example "docker-compose.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/DEPLOY_docker_compose.yml"
+    ```
+
+??? example "docker-compose-dev.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_dev.yml"
+    ```
+
+??? example "docker-compose-unittest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_unittest.yml"
+    ```
+
+??? example "docker-compose-load.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_load.yml"
+    ```
+
 ---
 
 ## Custom err pages
@@ -152,10 +182,86 @@
     --8<-- "./docs/examples/python/django/CUSTOM_ERR_PAGES_app_views.py"
     ```
 
+---
+
 ## Security
 
 ??? example "settings.py"
 
     ```py title=""
     --8<-- "./docs/examples/python/django/SECURITY_settings.py"
+    ```
+
+---
+
+## Load Tests
+
+??? example "utils.py"
+
+    ```py title=""
+    --8<-- "./docs/examples/python/django/LOADTESTS_utils.py"
+    ```
+
+??? example "load_test.py"
+
+    ```py title=""
+    --8<-- "./docs/examples/python/django/LOADTESTS_load_test.py"
+    ```
+    
+??? example "soak_test.py"
+
+    ```py title=""
+    --8<-- "./docs/examples/python/django/LOADTESTS_soak_test.py"
+    ```
+
+??? example "spike_test.py"
+
+    ```py title=""
+    --8<-- "./docs/examples/python/django/LOADTESTS_spike_test.py"
+    ```
+
+??? example "stress_test.py"
+
+    ```py title=""
+    --8<-- "./docs/examples/python/django/LOADTESTS_stress_test.py"
+    ```
+
+---
+
+## GitHub Workflows
+
+??? example "code_analysis.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_code_analysis.yml"
+    ```
+
+??? example "loadtest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_loadtest.yml"
+    ```
+
+??? example "soaktest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_soaktest.yml"
+    ```
+
+??? example "spiketest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_spiketest.yml"
+    ```
+
+??? example "stresstest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_stresstest.yml"
+    ```
+
+??? example "unittest.yml"
+
+    ```yml title=""
+    --8<-- "./docs/examples/python/django/WORKFLOWS_unittest.yml"
     ```
