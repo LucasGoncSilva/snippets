@@ -144,25 +144,25 @@
 
 ??? example "docker-compose.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/DEPLOY_docker_compose.yml"
     ```
 
 ??? example "docker-compose-dev.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_dev.yml"
     ```
 
 ??? example "docker-compose-unittest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_unittest.yml"
     ```
 
 ??? example "docker-compose-load.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/DEPLOY_docker_compose_load.yml"
     ```
 
@@ -232,36 +232,36 @@
 
 ??? example "code_analysis.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_code_analysis.yml"
     ```
 
 ??? example "loadtest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_loadtest.yml"
     ```
 
 ??? example "soaktest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_soaktest.yml"
     ```
 
 ??? example "spiketest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_spiketest.yml"
     ```
 
 ??? example "stresstest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_stresstest.yml"
     ```
 
 ??? example "unittest.yml"
 
-    ```yml title=""
+    ```yaml title=""
     --8<-- "./docs/examples/python/django/WORKFLOWS_unittest.yml"
     ```
